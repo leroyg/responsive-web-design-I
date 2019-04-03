@@ -290,7 +290,7 @@ width: 88%;
         margin: 0 auto;
         display: block;
         max-width: 100%;
-        width: 95%;
+        width: 94%;
     }
 
     .bottom-content {
@@ -304,5 +304,12 @@ width: 88%;
         display: inline-block;
         flex-wrap: wrap;
         margin: 3% 0% 0% 3%;
+    }
+
+    .top-content {
+        display: flex;
+        box-sizing: border-box;
+        margin: 1% 2.5% 5% 2.5%;
+        align-content: center;
     }
 }
