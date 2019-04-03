@@ -80,8 +80,6 @@ html {
 
 
 .logo{
-    display: flex;
-    justify-content: flex-end;
 }
 
 .navigation {
@@ -137,6 +135,7 @@ html {
     display: flex;
     margin-top: 100px;
     margin-left: 100px;
+    margin-right: 4%;
 }
 
 .button {
@@ -251,8 +250,6 @@ width: 88%;
     .nav-links {
         display: flex;
         width: 90%;
-        margin: 0 auto;
-        justify-content: space-between;
     }
 
     .word-splash {
@@ -311,5 +308,62 @@ width: 88%;
         box-sizing: border-box;
         margin: 1% 2.5% 5% 2.5%;
         align-content: center;
+    }
+}
+
+@media(max-width: 500px){
+
+    .navigation {
+        text-decoration: none;
+        width: 95%;
+        display: flex;
+        padding: 1% 0% 0% 0%;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navigation {
+        width: 100%;
+    }
+
+    .navigation a {
+        text-decoration: none;
+        color: gray;
+        margin: 2% 0% 2% 0%;
+        border-top: 1px solid;
+        padding: 3% 0% 0% 0%
+    }
+
+    a#mobile-logo {
+        border: none;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    a#last-nav{
+        border-bottom: 1px solid;
+        padding-bottom: 4%;
+    }
+
+    .word-splash {
+        margin-top: 5%;
+    }
+
+    .banner-text{
+        font-size: 350%;
+    }
+
+    .button{
+        border: 1px solid black;
+    }
+
+    .button a{
+        color:black;
     }
 }
