@@ -6,59 +6,152 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
@@ -69,17 +162,21 @@ h1, h2, h3, h4, h5 {
 html {
     box-sizing: border-box;
 }
-*, *:before, *:after {
-    box-sizing: inherit;
-  }
 
-.container{
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.container {
     width: 1024px;
     margin: 0 auto;
 }
 
 
-.logo{
+.logo {
+
 }
 
 .navigation {
@@ -91,30 +188,31 @@ html {
     padding: 3% 0% 0% 0%;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     width: 66%;
     margin: 0 auto;
     justify-content: space-between;
 }
 
-.navigation a{
+.navigation a {
     text-decoration: none;
     color: gray;
 }
 
-.header{
+.header {
     box-sizing: border-box;
 
 
 }
 
-.banner-text{
+.banner-text {
     font-size: 85px;
     font-family: 'Bangers', cursive;
     margin-bottom: 100px;
     display: flex;
 }
+
 .word-splash {
     text-align: center;
     width: 100%;
@@ -123,13 +221,13 @@ html {
     padding-top: 190px;
 }
 
-.tagline{
+.tagline {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 111px;
     box-sizing: border-box;
 }
 
-.imageHeader{
+.imageHeader {
     height: 364px;
     width: 364px;
     display: flex;
@@ -139,81 +237,81 @@ html {
 }
 
 .button {
-    font-family: 'Titillium Web' , sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 18px;
     border: 1px solid grey;
     padding: 6px 30px;
     width: 175px;
-    margin: 10px 0px 0px 245px;
+    margin: 10px 0px 0px 225px;
 }
 
-.button a{
+.button a {
     text-decoration: none;
     color: grey;
 }
 
-.horizontal-line{
-    width:900px;
+.horizontal-line {
+    width: 900px;
 }
 
-.middle-img{
+.middle-img {
     box-sizing: border-box;
-margin: 0 auto;
-display: block;
-max-width: 100%;
-width: 88%;
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    width: 88%;
 }
 
-.top-content{
+.top-content {
     display: flex;
     box-sizing: border-box;
     margin: 0px 65px 40px;
     align-items: center;
 }
 
-.top-content .half-way-boxes{
+.top-content .half-way-boxes {
     padding: 0px 5px 0px 5px;
 }
 
-.middle-content{
+.middle-content {
     display: flex;
 }
 
-.bottom-content{
+.bottom-content {
     display: flex;
     align-items: center;
     padding: 0px 43px;
 }
 
-.bottom-content .bottom-boxes{
+.bottom-content .bottom-boxes {
     padding: 30px;
 }
 
-.contact-info{
+.contact-info {
     width: 160px;
     display: inline-block;
     flex-wrap: wrap;
     margin: 40px 0px 30px 70px;
 }
 
- #contact-font-change{
+#contact-font-change {
     font-family: 'Bangers', cursive;
 }
 
-.contact-info a{
+.contact-info a {
     text-decoration: none;
     color: black;
 }
 
-.email-paragraph{
+.email-paragraph {
     padding: 15px 0px 0px 0px;
 }
 
-.copyright{
+.copyright {
     text-align: center;
-        
+
     line-height: 8;
-}   
+}
 
 @media(max-width: 800px) {
     .container {
@@ -221,7 +319,7 @@ width: 88%;
     }
 
     .container.navigation {
-       width: 80%; 
+        width: 80%;
     }
 
     .navigation {
@@ -237,11 +335,11 @@ width: 88%;
         width: 95%;
     }
 
-    img.imageHeader{
+    img.imageHeader {
         display: none;
     }
 
-    .navigation a{
+    .navigation a {
         text-decoration: none;
         color: gray;
         margin: 0% 0% 5% 0%;
@@ -268,7 +366,7 @@ width: 88%;
     }
 
     .button {
-        font-family: 'Titillium Web' , sans-serif;
+        font-family: 'Titillium Web', sans-serif;
         font-size: 18px;
         border: 1px solid grey;
         padding: 6px 30px;
@@ -311,7 +409,7 @@ width: 88%;
     }
 }
 
-@media(max-width: 500px){
+@media(max-width: 500px) {
 
     .navigation {
         text-decoration: none;
@@ -346,7 +444,7 @@ width: 88%;
         margin-bottom: 4%;
     }
 
-    a#last-nav{
+    a#last-nav {
         border-bottom: 1px solid;
         padding-bottom: 4%;
     }
@@ -355,16 +453,16 @@ width: 88%;
         margin-top: 5%;
     }
 
-    .banner-text{
+    .banner-text {
         font-size: 350%;
     }
 
-    .button{
+    .button {
         border: 1px solid black;
     }
 
-    .button a{
-        color:black;
+    .button a {
+        color: black;
     }
 
     .top-content {
@@ -372,7 +470,7 @@ width: 88%;
         flex-direction: column;
     }
 
-    .bottom-content{
+    .bottom-content {
         flex-direction: column;
     }
 
